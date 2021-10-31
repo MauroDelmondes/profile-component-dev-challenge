@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #0c0b0b;
+  color: #b7b7b7;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  display: flex;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f0e0e;
+  padding: 100px;
+  justify-self: center;
+  align-self: center;
+}
+
+.profile {
+  background-color: #0f0e0e;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.profile-items {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
+  margin-right: 5px;
+}
+
+.name {
+  font-weight: 700;
+  font-size:x-large;
+}
+
+.nickname {
+  font-weight: 300;
+}
+
+.edit {
+  background-color: #1b1b1b;
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.filter-white {
+  height: 32px;
+  width: 32px;
+  filter: invert(73%) sepia(17%) saturate(1%) hue-rotate(314deg) brightness(99%)
+    contrast(85%);
+}
+
+.info-box-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.info-box {
+  height: 100px;
+  width: 160px;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.projects {
+  background-color: #046313;
+}
+
+.description {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+.data {
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.stars {
+  background-color: #044a7d;
+  margin-left: 20px;
+}
+
+.followers {
+  background-color: #725200;
+  margin-left: 20px;
+}
