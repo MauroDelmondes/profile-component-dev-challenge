@@ -28,7 +28,6 @@ main {
 }
 
 .profile {
-  background-color: #0f0e0e;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -37,8 +36,8 @@ main {
 }
 
 .profile-items {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .profile-pic {
@@ -50,7 +49,7 @@ main {
 
 .name {
   font-weight: 700;
-  font-size:x-large;
+  font-size: x-large;
 }
 
 .nickname {
@@ -109,4 +108,51 @@ main {
 .followers {
   background-color: #725200;
   margin-left: 20px;
+}
+
+@media screen and (max-width: 1050px) {
+  .container {
+    position: relative;
+    width: 100vw;
+    align-items: center;
+    padding: 0;
+  }
+
+  .profile {
+    flex-direction: column;
+    text-align: center;
+    width: fit-content;
+    position: absolute;
+    top: -70px;
+  }
+
+  .profile-items {
+    flex-direction: column;
+  }
+
+  .profile-pic {
+    margin-right: 0;
+  }
+
+  .edit {
+    margin-left: 0;
+  }
+
+  .info-box-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    margin-top: 170px;
+  }
+
+  .stars {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+
+  .followers {
+    margin-top: 20px;
+    margin-left: 0;
+  }
 }
